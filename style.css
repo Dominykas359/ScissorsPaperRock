@@ -22,6 +22,12 @@ body{
     border-radius: 25px;
     min-width: 350px;
 }
+#place{
+    text-align: center;
+    border: 3px solid;
+    padding: 3px;
+    border-radius: 25px;
+}
 #choises h1{
     margin-left: 5px;
 }
