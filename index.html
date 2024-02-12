@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1 id="title">Scissors Paper Rock</h1>
     <div id="buttons">
-        <button onclick="choose()">✌️</button>
-        <button onclick="choose()">🫲</button>
-        <button onclick="choose()">✊</button>
+        <button onclick="choose('scissors')">✌️</button>
+        <button onclick="choose('paper')">🫲</button>
+        <button onclick="choose('rock')">✊</button>
     </div>
     <div id="choises">
-        <h1 id="yourChoise">You: Rock</h1>
-        <h1 id="computerChoise">Computer: Scissors</h1>
+        <h1 id="yourChoise">You: </h1>
+        <h1 id="computerChoise">Computer: </h1>
     </div>
 
     <h1 id="message">TIE</h1>
 
     <div id="result">
-        <h1 id="yourScore">Your score: </h1>
-        <h1 id="compterScore">Computer score: </h1>
+        <h1 id="yourScore">Your score: 0</h1>
+        <h1 id="computerScore">Computer score: 0</h1>
     </div>
     
     <script src="index.js"></script>
