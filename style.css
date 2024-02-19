@@ -4,7 +4,7 @@ body{
     margin: 0;
     flex-direction: column;
     align-items: center;
-    background-color: hsl(0, 0%, 90%);
+    background-color: hsl(298, 40%, 51%);
 }
 #buttons button{
     border: none;
@@ -27,15 +27,16 @@ body{
     border: 3px solid;
     padding: 3px;
     border-radius: 25px;
+    background-color: hsl(240, 41%, 59%);
 }
 #choises h1{
     margin-left: 5px;
 }
 .youWin{
-    color:green;
+    color:hsl(120, 56%, 48%);
 }
 .computerWin{
-    color: red;
+    color: hsl(0, 61%, 51%);
 }
 #result{
     border: 2px solid;
